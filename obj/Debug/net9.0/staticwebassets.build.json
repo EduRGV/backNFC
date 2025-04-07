@@ -1,0 +1,1155 @@
+{
+  "Version": 1,
+  "Hash": "itw8A/J9bTyagINtbXqpAeQBt5WnA6VcSXzworv3c4I=",
+  "Source": "NFC",
+  "BasePath": "_content/NFC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NFC\\wwwroot",
+      "Source": "NFC",
+      "ContentRoot": "F:\\NFC\\NFC\\wwwroot\\",
+      "BasePath": "_content/NFC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\NFC\\NFC\\wwwroot\\images\\296972b2-4467-4b7a-971d-7886d84db28e_empresas.png",
+      "SourceId": "NFC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\NFC\\NFC\\wwwroot\\",
+      "BasePath": "_content/NFC",
+      "RelativePath": "images/296972b2-4467-4b7a-971d-7886d84db28e_empresas#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ykujo4ujw",
+      "Integrity": "jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\296972b2-4467-4b7a-971d-7886d84db28e_empresas.png"
+    },
+    {
+      "Identity": "F:\\NFC\\NFC\\wwwroot\\images\\2a0d367f-5fd1-48b4-976a-537fc546ea49_Captura de pantalla 2025-03-20 110914.png",
+      "SourceId": "NFC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\NFC\\NFC\\wwwroot\\",
+      "BasePath": "_content/NFC",
+      "RelativePath": "images/2a0d367f-5fd1-48b4-976a-537fc546ea49_Captura de pantalla 2025-03-20 110914#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5vhul5l2z3",
+      "Integrity": "8e7s7JWZBE0nRUTpC+n/+jwZc+pYeEb6XNenJmhvXZk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2a0d367f-5fd1-48b4-976a-537fc546ea49_Captura de pantalla 2025-03-20 110914.png"
+    },
+    {
+      "Identity": "F:\\NFC\\NFC\\wwwroot\\images\\4771abf8-2afb-4bd7-8c95-e52a8ac964b4_empresas.png",
+      "SourceId": "NFC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\NFC\\NFC\\wwwroot\\",
+      "BasePath": "_content/NFC",
+      "RelativePath": "images/4771abf8-2afb-4bd7-8c95-e52a8ac964b4_empresas#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ykujo4ujw",
+      "Integrity": "jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4771abf8-2afb-4bd7-8c95-e52a8ac964b4_empresas.png"
+    },
+    {
+      "Identity": "F:\\NFC\\NFC\\wwwroot\\images\\5487d8c8-97f5-4b5d-ae8d-2f77a54f8804_profile_e7254bc76f.jpg",
+      "SourceId": "NFC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\NFC\\NFC\\wwwroot\\",
+      "BasePath": "_content/NFC",
+      "RelativePath": "images/5487d8c8-97f5-4b5d-ae8d-2f77a54f8804_profile_e7254bc76f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ginl6b6e1",
+      "Integrity": "JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5487d8c8-97f5-4b5d-ae8d-2f77a54f8804_profile_e7254bc76f.jpg"
+    },
+    {
+      "Identity": "F:\\NFC\\NFC\\wwwroot\\images\\6f7c05d3-17c8-46f5-937f-8accc8d58333_profile_e7254bc76f.jpg",
+      "SourceId": "NFC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\NFC\\NFC\\wwwroot\\",
+      "BasePath": "_content/NFC",
+      "RelativePath": "images/6f7c05d3-17c8-46f5-937f-8accc8d58333_profile_e7254bc76f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ginl6b6e1",
+      "Integrity": "JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\6f7c05d3-17c8-46f5-937f-8accc8d58333_profile_e7254bc76f.jpg"
+    },
+    {
+      "Identity": "F:\\NFC\\NFC\\wwwroot\\images\\7a67032c-9591-4ac2-ba22-b608238c5539_profile_e7254bc76f.jpg",
+      "SourceId": "NFC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\NFC\\NFC\\wwwroot\\",
+      "BasePath": "_content/NFC",
+      "RelativePath": "images/7a67032c-9591-4ac2-ba22-b608238c5539_profile_e7254bc76f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ginl6b6e1",
+      "Integrity": "JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\7a67032c-9591-4ac2-ba22-b608238c5539_profile_e7254bc76f.jpg"
+    },
+    {
+      "Identity": "F:\\NFC\\NFC\\wwwroot\\images\\7ad3391d-2fd6-460a-b2a4-0d9717b2082a_empresas.png",
+      "SourceId": "NFC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\NFC\\NFC\\wwwroot\\",
+      "BasePath": "_content/NFC",
+      "RelativePath": "images/7ad3391d-2fd6-460a-b2a4-0d9717b2082a_empresas#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ykujo4ujw",
+      "Integrity": "jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\7ad3391d-2fd6-460a-b2a4-0d9717b2082a_empresas.png"
+    },
+    {
+      "Identity": "F:\\NFC\\NFC\\wwwroot\\images\\86ca1733-a592-4e1c-b6d3-f0061d88c3b7_empresas.png",
+      "SourceId": "NFC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\NFC\\NFC\\wwwroot\\",
+      "BasePath": "_content/NFC",
+      "RelativePath": "images/86ca1733-a592-4e1c-b6d3-f0061d88c3b7_empresas#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ykujo4ujw",
+      "Integrity": "jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\86ca1733-a592-4e1c-b6d3-f0061d88c3b7_empresas.png"
+    },
+    {
+      "Identity": "F:\\NFC\\NFC\\wwwroot\\images\\c1380e36-2507-4dd4-bd03-91d79a9f0c18_empresas.png",
+      "SourceId": "NFC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\NFC\\NFC\\wwwroot\\",
+      "BasePath": "_content/NFC",
+      "RelativePath": "images/c1380e36-2507-4dd4-bd03-91d79a9f0c18_empresas#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ykujo4ujw",
+      "Integrity": "jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c1380e36-2507-4dd4-bd03-91d79a9f0c18_empresas.png"
+    },
+    {
+      "Identity": "F:\\NFC\\NFC\\wwwroot\\images\\c399e3c8-94ae-4304-b486-bb1349c14517_empresas.png",
+      "SourceId": "NFC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\NFC\\NFC\\wwwroot\\",
+      "BasePath": "_content/NFC",
+      "RelativePath": "images/c399e3c8-94ae-4304-b486-bb1349c14517_empresas#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ykujo4ujw",
+      "Integrity": "jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c399e3c8-94ae-4304-b486-bb1349c14517_empresas.png"
+    },
+    {
+      "Identity": "F:\\NFC\\NFC\\wwwroot\\images\\fb390ea9-6ab3-485f-a85d-09d3f303cd7c_profile_e7254bc76f.jpg",
+      "SourceId": "NFC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\NFC\\NFC\\wwwroot\\",
+      "BasePath": "_content/NFC",
+      "RelativePath": "images/fb390ea9-6ab3-485f-a85d-09d3f303cd7c_profile_e7254bc76f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ginl6b6e1",
+      "Integrity": "JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fb390ea9-6ab3-485f-a85d-09d3f303cd7c_profile_e7254bc76f.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/296972b2-4467-4b7a-971d-7886d84db28e_empresas.4ykujo4ujw.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\296972b2-4467-4b7a-971d-7886d84db28e_empresas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:25:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ykujo4ujw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/296972b2-4467-4b7a-971d-7886d84db28e_empresas.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/296972b2-4467-4b7a-971d-7886d84db28e_empresas.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\296972b2-4467-4b7a-971d-7886d84db28e_empresas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:25:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/2a0d367f-5fd1-48b4-976a-537fc546ea49_Captura de pantalla 2025-03-20 110914.5vhul5l2z3.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\2a0d367f-5fd1-48b4-976a-537fc546ea49_Captura de pantalla 2025-03-20 110914.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8e7s7JWZBE0nRUTpC+n/+jwZc+pYeEb6XNenJmhvXZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:23:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5vhul5l2z3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/2a0d367f-5fd1-48b4-976a-537fc546ea49_Captura de pantalla 2025-03-20 110914.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8e7s7JWZBE0nRUTpC+n/+jwZc+pYeEb6XNenJmhvXZk="
+        }
+      ]
+    },
+    {
+      "Route": "images/2a0d367f-5fd1-48b4-976a-537fc546ea49_Captura de pantalla 2025-03-20 110914.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\2a0d367f-5fd1-48b4-976a-537fc546ea49_Captura de pantalla 2025-03-20 110914.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8e7s7JWZBE0nRUTpC+n/+jwZc+pYeEb6XNenJmhvXZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:23:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8e7s7JWZBE0nRUTpC+n/+jwZc+pYeEb6XNenJmhvXZk="
+        }
+      ]
+    },
+    {
+      "Route": "images/4771abf8-2afb-4bd7-8c95-e52a8ac964b4_empresas.4ykujo4ujw.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\4771abf8-2afb-4bd7-8c95-e52a8ac964b4_empresas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:26:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ykujo4ujw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4771abf8-2afb-4bd7-8c95-e52a8ac964b4_empresas.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/4771abf8-2afb-4bd7-8c95-e52a8ac964b4_empresas.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\4771abf8-2afb-4bd7-8c95-e52a8ac964b4_empresas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:26:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/5487d8c8-97f5-4b5d-ae8d-2f77a54f8804_profile_e7254bc76f.4ginl6b6e1.jpg",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\5487d8c8-97f5-4b5d-ae8d-2f77a54f8804_profile_e7254bc76f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 00:17:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ginl6b6e1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/5487d8c8-97f5-4b5d-ae8d-2f77a54f8804_profile_e7254bc76f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY="
+        }
+      ]
+    },
+    {
+      "Route": "images/5487d8c8-97f5-4b5d-ae8d-2f77a54f8804_profile_e7254bc76f.jpg",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\5487d8c8-97f5-4b5d-ae8d-2f77a54f8804_profile_e7254bc76f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 00:17:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY="
+        }
+      ]
+    },
+    {
+      "Route": "images/6f7c05d3-17c8-46f5-937f-8accc8d58333_profile_e7254bc76f.4ginl6b6e1.jpg",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\6f7c05d3-17c8-46f5-937f-8accc8d58333_profile_e7254bc76f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 00:19:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ginl6b6e1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/6f7c05d3-17c8-46f5-937f-8accc8d58333_profile_e7254bc76f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY="
+        }
+      ]
+    },
+    {
+      "Route": "images/6f7c05d3-17c8-46f5-937f-8accc8d58333_profile_e7254bc76f.jpg",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\6f7c05d3-17c8-46f5-937f-8accc8d58333_profile_e7254bc76f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 00:19:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY="
+        }
+      ]
+    },
+    {
+      "Route": "images/7a67032c-9591-4ac2-ba22-b608238c5539_profile_e7254bc76f.4ginl6b6e1.jpg",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\7a67032c-9591-4ac2-ba22-b608238c5539_profile_e7254bc76f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 00:22:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ginl6b6e1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/7a67032c-9591-4ac2-ba22-b608238c5539_profile_e7254bc76f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY="
+        }
+      ]
+    },
+    {
+      "Route": "images/7a67032c-9591-4ac2-ba22-b608238c5539_profile_e7254bc76f.jpg",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\7a67032c-9591-4ac2-ba22-b608238c5539_profile_e7254bc76f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 00:22:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY="
+        }
+      ]
+    },
+    {
+      "Route": "images/7ad3391d-2fd6-460a-b2a4-0d9717b2082a_empresas.4ykujo4ujw.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\7ad3391d-2fd6-460a-b2a4-0d9717b2082a_empresas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:18:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ykujo4ujw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/7ad3391d-2fd6-460a-b2a4-0d9717b2082a_empresas.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/7ad3391d-2fd6-460a-b2a4-0d9717b2082a_empresas.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\7ad3391d-2fd6-460a-b2a4-0d9717b2082a_empresas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:18:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/86ca1733-a592-4e1c-b6d3-f0061d88c3b7_empresas.4ykujo4ujw.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\86ca1733-a592-4e1c-b6d3-f0061d88c3b7_empresas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:30:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ykujo4ujw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/86ca1733-a592-4e1c-b6d3-f0061d88c3b7_empresas.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/86ca1733-a592-4e1c-b6d3-f0061d88c3b7_empresas.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\86ca1733-a592-4e1c-b6d3-f0061d88c3b7_empresas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:30:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/c1380e36-2507-4dd4-bd03-91d79a9f0c18_empresas.4ykujo4ujw.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\c1380e36-2507-4dd4-bd03-91d79a9f0c18_empresas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:48:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ykujo4ujw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/c1380e36-2507-4dd4-bd03-91d79a9f0c18_empresas.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/c1380e36-2507-4dd4-bd03-91d79a9f0c18_empresas.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\c1380e36-2507-4dd4-bd03-91d79a9f0c18_empresas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:48:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/c399e3c8-94ae-4304-b486-bb1349c14517_empresas.4ykujo4ujw.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\c399e3c8-94ae-4304-b486-bb1349c14517_empresas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:21:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ykujo4ujw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/c399e3c8-94ae-4304-b486-bb1349c14517_empresas.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/c399e3c8-94ae-4304-b486-bb1349c14517_empresas.png",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\c399e3c8-94ae-4304-b486-bb1349c14517_empresas.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:21:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNh2W+20cm9ywwjCbvNiCSQOEz71raCt3RsA8SuauQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/fb390ea9-6ab3-485f-a85d-09d3f303cd7c_profile_e7254bc76f.4ginl6b6e1.jpg",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\fb390ea9-6ab3-485f-a85d-09d3f303cd7c_profile_e7254bc76f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 00:24:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ginl6b6e1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/fb390ea9-6ab3-485f-a85d-09d3f303cd7c_profile_e7254bc76f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY="
+        }
+      ]
+    },
+    {
+      "Route": "images/fb390ea9-6ab3-485f-a85d-09d3f303cd7c_profile_e7254bc76f.jpg",
+      "AssetFile": "F:\\NFC\\NFC\\wwwroot\\images\\fb390ea9-6ab3-485f-a85d-09d3f303cd7c_profile_e7254bc76f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 00:24:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JPpXK5O5eB8CV7pdX9mWU+ftY7zX5HsNtd6iXgpZmRY="
+        }
+      ]
+    }
+  ]
+}
