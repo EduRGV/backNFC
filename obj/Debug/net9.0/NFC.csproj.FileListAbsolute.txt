@@ -192,3 +192,4 @@ F:\NFC\NFC\obj\Debug\net9.0\NFC.genruntimeconfig.cache
 F:\NFC\NFC\obj\Debug\net9.0\ref\NFC.dll
 F:\NFC\NFC\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 F:\NFC\NFC\bin\Debug\net9.0\NFC.staticwebassets.runtime.json
+F:\NFC\NFC\obj\Debug\net9.0\NFC.sourcelink.json

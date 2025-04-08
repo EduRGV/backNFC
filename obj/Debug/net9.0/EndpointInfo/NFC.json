@@ -76,6 +76,21 @@
                   "ProfileUrl": {
                     "type": "string"
                   },
+                  "WebsiteUrl": {
+                    "type": "string"
+                  },
+                  "LinkedInUrl": {
+                    "type": "string"
+                  },
+                  "FacebookUrl": {
+                    "type": "string"
+                  },
+                  "PhoneNumber": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
                   "imageFile": {
                     "type": "string",
                     "format": "binary"
@@ -99,6 +114,21 @@
                   "style": "form"
                 },
                 "ProfileUrl": {
+                  "style": "form"
+                },
+                "WebsiteUrl": {
+                  "style": "form"
+                },
+                "LinkedInUrl": {
+                  "style": "form"
+                },
+                "FacebookUrl": {
+                  "style": "form"
+                },
+                "PhoneNumber": {
+                  "style": "form"
+                },
+                "Email": {
                   "style": "form"
                 },
                 "imageFile": {
@@ -266,6 +296,26 @@
             "nullable": true
           },
           "profileUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "websiteUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "linkedInUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "facebookUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
             "type": "string",
             "nullable": true
           }

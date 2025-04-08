@@ -58,6 +58,31 @@
         "IsRequired": false
       },
       {
+        "Name": "WebsiteUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LinkedInUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FacebookUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "imageFile",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
