@@ -83,7 +83,17 @@
         "IsRequired": false
       },
       {
+        "Name": "Background",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "imageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "backgroundFile",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
       }
@@ -115,32 +125,6 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ProfileController",
-    "Method": "GetProfileUrl",
-    "RelativePath": "api/Profile/Url/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   },
   {
     "ContainingType": "NFC.Controllers.WeatherForecastController",

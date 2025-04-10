@@ -91,7 +91,14 @@
                   "Email": {
                     "type": "string"
                   },
+                  "Background": {
+                    "type": "string"
+                  },
                   "imageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "backgroundFile": {
                     "type": "string",
                     "format": "binary"
                   }
@@ -131,7 +138,13 @@
                 "Email": {
                   "style": "form"
                 },
+                "Background": {
+                  "style": "form"
+                },
                 "imageFile": {
+                  "style": "form"
+                },
+                "backgroundFile": {
                   "style": "form"
                 }
               }
@@ -181,46 +194,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Profile/Url/{id}": {
-      "get": {
-        "tags": [
-          "Profile"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
           }
         }
       }
@@ -316,6 +289,10 @@
             "nullable": true
           },
           "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "background": {
             "type": "string",
             "nullable": true
           }

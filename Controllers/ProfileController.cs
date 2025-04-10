@@ -30,33 +30,39 @@ public class ProfileController : ControllerBase
         var profile = await _context.Profiles.FindAsync(id);
         if (profile == null) return NotFound();
 
-        // Verificar si tiene una imagen y generar la URL absoluta
         if (!string.IsNullOrEmpty(profile.ImageUrl))
         {
             var baseUrl = $"{Request.Scheme}://{Request.Host}";
             profile.ImageUrl = $"{baseUrl}{profile.ImageUrl}";
         }
 
+        if (!string.IsNullOrEmpty(profile.Background))
+        {
+            var baseUrl = $"{Request.Scheme}://{Request.Host}";
+            profile.Background = $"{baseUrl}{profile.Background}";
+        }
+
         return Ok(profile);
     }
 
-
     // POST: api/Profile
     [HttpPost]
-    public async Task<ActionResult<Profile>> CreateProfile([FromForm] Profile profile, IFormFile? imageFile)
+    public async Task<ActionResult<Profile>> CreateProfile(
+        [FromForm] Profile profile,
+        IFormFile? imageFile,
+        IFormFile? backgroundFile)
     {
         if (profile == null)
         {
             return BadRequest("El perfil no puede ser nulo.");
         }
+        var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+        Directory.CreateDirectory(uploadsFolder);
 
-        // Guardar la imagen si se envió una
+
         if (imageFile != null && imageFile.Length > 0)
         {
-            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
-            Directory.CreateDirectory(uploadsFolder); // Asegura que la carpeta exista
-
-            var fileName = $"{Guid.NewGuid()}_{imageFile.FileName}"; // Nombre único
+            var fileName = $"{Guid.NewGuid()}_{imageFile.FileName}";
             var filePath = Path.Combine(uploadsFolder, fileName);
 
             using (var stream = new FileStream(filePath, FileMode.Create))
@@ -64,56 +70,43 @@ public class ProfileController : ControllerBase
                 await imageFile.CopyToAsync(stream);
             }
 
-            // Guardamos la ruta relativa de la imagen
             profile.ImageUrl = $"/images/{fileName}";
-            Console.WriteLine($"✅ Imagen guardada en: {filePath}");
-        }
-        else
-        {
-            Console.WriteLine("⚠️ No se recibió ninguna imagen.");
+            Console.WriteLine($"✅ Imagen principal guardada: {filePath}");
         }
 
-        // 🔹 Asignamos la URL del perfil antes de guardarlo en la BD
+        if (backgroundFile != null && backgroundFile.Length > 0)
+        {
+            var bgFileName = $"{Guid.NewGuid()}_{backgroundFile.FileName}";
+            var bgFilePath = Path.Combine(uploadsFolder, bgFileName);
+
+            using (var stream = new FileStream(bgFilePath, FileMode.Create))
+            {
+                await backgroundFile.CopyToAsync(stream);
+            }
+
+            profile.Background = $"/images/{bgFileName}";
+            Console.WriteLine($"✅ Imagen de background guardada: {bgFilePath}");
+        }
+
         _context.Profiles.Add(profile);
-        await _context.SaveChangesAsync(); // Aquí se genera el ID
+        await _context.SaveChangesAsync();
 
         profile.ProfileUrl = $"http://localhost:3000/profile/{profile.Id}";
-
-        // 🔹 Guardamos la URL del perfil en la BD
         _context.Profiles.Update(profile);
         await _context.SaveChangesAsync();
 
-        Console.WriteLine($"✅ Perfil guardado con ID: {profile.Id} y URL: {profile.ProfileUrl}");
-
-        // Crear la URL absoluta de la imagen para la respuesta
+        var baseUrl = $"{Request.Scheme}://{Request.Host}";
         if (!string.IsNullOrEmpty(profile.ImageUrl))
-        {
-            var baseUrl = $"{Request.Scheme}://{Request.Host}";
             profile.ImageUrl = $"{baseUrl}{profile.ImageUrl}";
-            Console.WriteLine($"✅ URL completa de la imagen: {profile.ImageUrl}");
-        }
+        if (!string.IsNullOrEmpty(profile.Background))
+            profile.Background = $"{baseUrl}{profile.Background}";
 
         return CreatedAtAction(nameof(GetProfile), new { id = profile.Id }, profile);
     }
 
 
 
-    // GET: api/Profile/Url/5
-    [HttpGet("Url/{id}")]
-    public async Task<ActionResult<string>> GetProfileUrl(int id)
-    {
-        // Buscar el perfil por ID
-        var profile = await _context.Profiles.FindAsync(id);
-
-        // Verificar si el perfil existe
-        if (profile == null)
-        {
-            return NotFound(); // Retorna 404 si no encuentra el perfil
-        }
-
-        // Retornar solo el campo ProfileUrl
-        return Ok(profile.ProfileUrl);
-    }
+    
 
 
 
