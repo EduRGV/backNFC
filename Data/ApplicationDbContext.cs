@@ -8,5 +8,7 @@ namespace NFC.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         public DbSet<Profile> Profiles { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 }

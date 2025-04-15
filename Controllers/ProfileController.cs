@@ -23,6 +23,11 @@ public class ProfileController : ControllerBase
         return await _context.Profiles.ToListAsync();
     }
 
+    private bool ProfileExists(int id)
+    {
+        return _context.Users.Any(e => e.Id == id);
+    }
+
     // GET: api/Profile/5
     [HttpGet("{id}")]
     public async Task<IActionResult> GetProfile(int id)
@@ -106,10 +111,48 @@ public class ProfileController : ControllerBase
 
 
 
-    
+    // PUT: api/Profile/5
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateProfile(int id, [FromBody] Profile userData)
+    {
+        if (id != userData.Id) return BadRequest();
+
+        var user = await _context.Profiles.FindAsync(id);
+        if (user == null) return NotFound();
+
+        // Actualiza solo campos permitidos
+        user.Name = userData.Name;
+        user.Email = userData.Email;
+        user.Description= userData.Description;
+        user.PhoneNumber = userData.PhoneNumber;
+        user.Position= userData.Position;
+
+        try
+        {
+            await _context.SaveChangesAsync();
+            return new JsonResult(new { status = true, message = "Perfil del Usuario actualizado" });
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!ProfileExists(id)) return NotFound();
+            throw;
+        }
+
+        return NoContent();
+    }
 
 
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteProfile(int id)
+    {
+        var user = await _context.Profiles.FindAsync(id);
+        if (user == null) return NotFound();
 
+        _context.Profiles.Remove(user);
+        await _context.SaveChangesAsync();
+
+        return NoContent();
+    }
 
 
 

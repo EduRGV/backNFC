@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NFC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b47ae41c44dfa69f1360e789c102ef808b85233")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+021d5e4089fae76182f57944fc33d8f2ba138128")]
 [assembly: System.Reflection.AssemblyProductAttribute("NFC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NFC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

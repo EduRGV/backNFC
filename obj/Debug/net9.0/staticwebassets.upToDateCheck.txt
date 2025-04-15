@@ -16,6 +16,7 @@ wwwroot\images\86ca1733-a592-4e1c-b6d3-f0061d88c3b7_empresas.png
 wwwroot\images\925afa99-701d-404d-9f91-dc023627253a_empresas.png
 wwwroot\images\97941e89-aa71-4d75-bfb0-35eb44ebb405_profile_e7254bc76f.jpg
 wwwroot\images\a12531ff-329a-465c-a75e-49eba2b96cb2_profile_e7254bc76f.jpg
+wwwroot\images\a7025866-6dc8-41c1-992b-e14ed0f1f0da_600363f77b049b62f466fd20.jpeg
 wwwroot\images\ad126142-3bae-4715-9397-319a9ff67c9a_profile_e7254bc76f.jpg
 wwwroot\images\ad213aa4-203b-44d9-a92a-9381e542e847_slin-background_f7bda7f9ab.jpg
 wwwroot\images\c1380e36-2507-4dd4-bd03-91d79a9f0c18_empresas.png
